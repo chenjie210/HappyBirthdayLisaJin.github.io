@@ -225,17 +225,17 @@ body {
 
 .button-style1 {
 	position:absolute;
-	top:50%;
+	top:80%;
     left: 50%;
     margin-left:-87px;
-	
+	animation: btn1 5s
 }
 .button-style2 {
 	position:absolute;
-    top:60%;
+    top:90%;
     margin-left:-87px;
     left: 50%;
-	
+	animation: btn2 5s
 }
 
 @keyframes btn1 {
