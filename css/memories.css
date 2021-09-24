@@ -2087,3 +2087,9 @@
 .xx94 {
 	height:80%;
 }
+
+@media screen and (max-width: 800px){
+	.ly-box01 {
+		width:100%;
+	}
+}
