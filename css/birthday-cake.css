@@ -228,14 +228,14 @@ body {
 	top:50%;
     left: 50%;
     margin-left:-87px;
-	animation:btn1 15s
+	
 }
 .button-style2 {
 	position:absolute;
     top:60%;
     margin-left:-87px;
     left: 50%;
-	animation:btn2 15s
+	
 }
 
 @keyframes btn1 {
