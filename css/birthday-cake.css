@@ -229,6 +229,7 @@ body {
     left: 50%;
     margin-left:-87px;
     opacity:0;
+	animation:btn1 15s
 }
 .button-style2 {
 	position:absolute;
@@ -236,7 +237,7 @@ body {
     margin-left:-87px;
     left: 50%;
     opacity:0;
-
+	animation:btn2 15s
 }
 @keyframes btn1 {
 	0% {
