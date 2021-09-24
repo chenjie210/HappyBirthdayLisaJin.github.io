@@ -2088,7 +2088,7 @@
 	height:80%;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 400px){
 	.ly-box01 {
 		width:100%;
 	}
