@@ -2086,10 +2086,1079 @@
 }
 .xx94 {
 	height:80%;
+@media screen and (min-aspect-ratio: 10/9) {
+	.ly-box01 {
+		width:50px;
+		height:50px;
+		background-color:#FFF;
+		border-radius: 25px;
+		position: absolute;
+		left: 48%;
+		bottom: 50%;
+		margin-bottom:50%;
+		overflow: hidden;
+		transform-origin:center bottom;
+		animation:box_to_point 18.5s 0s,bounce 2.5s 18.5s;
+	}
 }
 
-@media screen and (max-width: 400px){
+/*移动端*/
+@media screen and (max-aspect-ratio: 3/4){
 	.ly-box01 {
-		width:50%;
+		width:50px;
+		height:50px;
+		background-color:#FFF;
+		border-radius: 25px;
+		position: absolute;
+		left: 48%;
+		bottom: 50%;
+		margin-bottom:50%;
+		overflow: hidden;
+		transform-origin:center bottom;
+		animation:box_to_point_mobile 18.5s 0s,bounce 2.5s 18.5s;
+	}
+}
+	
+@media screen and (min-aspect-ratio: 10/9) {
+	.ly-txt01 {
+		position:absolute;
+		width: 40%;
+		left:10%;
+		top:10%;
+	}
+	
+	.ly-txt02 {
+		position:absolute;
+		width: 40%;
+		left:60%;
+		top:10%;
+	}
+}
+
+@media screen and (max-aspect-ratio: 3/4) {
+	.ly-txt01 {
+		position:absolute;
+		width: 40%;
+		left:10%;
+		top:5%;
+	}
+	
+	.ly-txt02 {
+		position:absolute;
+		width: 40%;
+		left:15%;
+		top:50%;
+	}
+
+	.ly-txt01 p {
+		font-size: 4vw !important;
+	}
+
+	.ly-txt02 p {
+		font-size: 4vw !important;
+	}
+}
+
+.ly-stxt01 {
+	font-family: Microsoft YaHei;
+	font-size: 30px;
+	font-color: #000;
+	position: relative;
+	left: 5%;
+	top: 5%;
+	opacity: 0;
+	animation:ly-stxt01_move 15s;
+	animation-delay:3s;
+	-webkit-animation:ly-stxt01_move 15s;
+	-webkit-animation-delay:3s;
+}
+
+.ly-stxt02 {
+	font-family: Microsoft YaHei;
+	font-size: 30px;
+	font-color: #000;
+	position: relative;
+	left: 5%;
+	top: 5%;
+	margin-top:-71px;
+	opacity: 0;
+	animation:ly-stxt02_move 15s;
+	animation-delay:3s;
+	-webkit-animation:ly-stxt02_move 15s;
+	-webkit-animation-delay:3s;
+}
+
+.ly-stxt03 {
+	font-family: Microsoft YaHei;
+	font-size: 30px;
+	font-color: #000;
+	position: relative;
+	left: 5%;
+	top: 5%;
+	opacity: 0;
+	margin-top:-71px;
+	animation:ly-stxt03_move 15s;
+	animation-delay:3s;
+	-webkit-animation:ly-stxt03_move 15s;
+	-webkit-animation-delay:3s;
+}
+
+.ly-stxt04 {
+	font-family: Microsoft YaHei;
+	font-size: 30px;
+	font-color: #000;
+	position: relative;
+	left: 5%;
+	top: 5%;
+	opacity: 0;
+	margin-top:-71px;
+	animation:ly-stxt04_move 15s;
+	animation-delay:3s;
+	-webkit-animation:ly-stxt04_move 15s;
+	-webkit-animation-delay:3s;
+}
+
+.ly-stxt05 {
+	font-family: Microsoft YaHei;
+	font-size: 30px;
+	font-color: #000;
+	position: relative;
+	left: 5%;
+	top: 5%;
+	opacity: 0;
+	margin-top:-71px;
+	animation:ly-stxt05_move 15s;
+	animation-delay:3s;
+	-webkit-animation:ly-stxt05_move 15s;
+	-webkit-animation-delay:3s;
+}
+
+.ly-stxt06 {
+	font-family: Microsoft YaHei;
+	font-size: 30px;
+	font-color: #000;
+	position: relative;
+	right: 5%;
+	top: 5%;
+	opacity: 0;
+	animation:ly-stxt06_move 15s;
+	animation-delay:3s;
+	-webkit-animation:ly-stxt06_move 15s;
+	-webkit-animation-delay:3s;
+}
+
+.ly-stxt07 {
+	font-family: Microsoft YaHei;
+	font-size: 30px;
+	font-color: #000;
+	position: relative;
+	right: 5%;
+	top: 5%;
+	opacity: 0;
+	margin-top:-71px;
+	animation:ly-stxt07_move 15s;
+	animation-delay:3s;
+	-webkit-animation:ly-stxt07_move 15s;
+	-webkit-animation-delay:3s;
+}
+
+.ly-stxt08 {
+	font-family: Microsoft YaHei;
+	font-size: 30px;
+	font-color: #000;
+	position: relative;
+	right: 5%;
+	top: 5%;
+	opacity: 0;
+	margin-top:-71px;
+	animation:ly-stxt08_move 15s;
+	animation-delay:3s;
+	-webkit-animation:ly-stxt08_move 15s;
+	-webkit-animation-delay:3s;
+}
+
+.ly-stxt09 {
+	font-family: Microsoft YaHei;
+	font-size: 30px;
+	font-color: #000;
+	position: relative;
+	right: 5%;
+	top: 5%;
+	opacity: 0;
+	margin-top:-71px;
+	animation:ly-stxt09_move 15s;
+	animation-delay:3s;
+	-webkit-animation:ly-stxt09_move 15s;
+	-webkit-animation-delay:3s;
+}
+
+.ly-stxt10 {
+	font-family: Microsoft YaHei;
+	font-size: 30px;
+	font-color: #000;
+	position: relative;
+	right: 5%;
+	top: 5%;
+	opacity: 0;
+	margin-top:-71px;
+	animation:ly-stxt10_move 15s;
+	animation-delay:3s;
+	-webkit-animation:ly-stxt10_move 15s;
+	-webkit-animation-delay:3s;
+}
+
+
+@media screen and (max-aspect-ratio: 3/4) {
+	.ly-box11 {
+		width: 60%;
+		height: 45%;
+		border: 2px #CCC;
+		background-color: #fff;
+		background-color: rgba(255,255,255,0.6);
+		border-radius: 8px;
+		position: absolute;
+		left: 23%;
+		top:3%;
+		overflow: hidden;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 1s;
+	}
+	.active .ly-box11{
+		opacity: 0.9;
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1);
+		transition-delay: 2.5s;
+	}
+	/* 盒子 */
+	.ly-box12 {
+		width: 60%;
+		height: 40%;
+		border: 2px #CCC;
+		background-color: #fff;
+		background-color: rgba(255,255,255,0.6);
+		border-radius: 8px;
+		position: absolute;
+		left: 23%;
+		top:52%;
+		overflow: hidden;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 1s;
+	}
+	.active .ly-box12{
+		opacity: 0.9;
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1);
+		transition-delay: 5s;
+	}
+
+	.ly-box11 p {
+		font-size: 2.5vw !important;
+	}
+	.ly-box12 p {
+		font-size: 2.5vw !important;
+	}
+	/*小三角*/
+	.ly-triangle11 {
+		width: 0; 
+		height: 0; 
+		border-top: 20px solid transparent; 
+		border-right: 22px solid white; 
+		border-bottom: 20px solid transparent;
+		border-radius: 2px; 
+		margin-left: 24px;
+		position: absolute;
+		right: 77%;
+		top: 14%;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 0.5s;
+	}
+	.active .ly-triangle11 {
+		opacity: 0.6;
+		margin-left: 2px;
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1);
+		transition-delay: 3.5s;
+	}
+	/*小三角*/
+	.ly-triangle12 {
+		width: 0; 
+		height: 0; 
+		border-top: 20px solid transparent; 
+		border-right: 22px solid white; 
+		border-bottom: 20px solid transparent;
+		border-radius: 2px; 
+		margin-left: 24px;
+		position: absolute;
+		right: 77%;
+		top: 55%;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 1s;
+	}
+	.active .ly-triangle12 {
+		opacity: 0.6;
+		margin-left: 2px;
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1);
+		transition-delay: 6s;
+	}
+	/*图片*/
+	.ly-imgbox11{
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		height: 70%;
+		border-radius: 8px;
+		opacity:0;
+		overflow: hidden;
+		transition:all 0.5s;
+	}
+	.active .ly-imgbox11{
+		opacity:1;
+		transition-delay:3.5s;
+	}
+	.ly-img11{
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+	}
+
+	@media screen and (max-aspect-ratio: 3/4) {
+	/* 盒子 */
+	.ly-box21 {
+		width: 30%;
+		height: 40%;
+		border: 2px #CCC;
+		background-color: #fff;
+		background-color: rgba(255,255,255,0.6);
+		border-radius: 8px;
+		position: absolute;
+		left: 23%;
+		top: 5%;
+		overflow: hidden;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 1s;
+	}
+	.active .ly-box21{
+		opacity: 0.9;
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1);
+		transition-delay: 2.5s;
+	}
+	/*小三角*/
+	.ly-triangle21 {
+		width: 0; 
+		height: 0; 
+		border-top: 20px solid transparent; 
+		border-right: 22px solid white; 
+		border-bottom: 20px solid transparent;
+		border-radius: 2px; 
+		margin-left: 24px;
+		position: absolute;
+		right: 77%;
+		top: 14%;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 0.5s;
+	}
+	.active .ly-triangle21 {
+		opacity: 0.6;
+		margin-left: 2px;
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1);
+		transition-delay: 3.5s;
+	}
+	/*图片*/
+	.ly-imgbox21{
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		height: 70%;
+		border-radius: 8px;
+		opacity:0;
+		overflow: hidden;
+		transition:all 0.5s;
+	}
+	.active .ly-imgbox21{
+		opacity:1;
+		transition-delay:3.5s;
+	}
+	.ly-img21{
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+	}
+	
+	/* 盒子 */
+	.ly-box22 {
+		width: 30%;
+		height: 30%;
+		border: 2px #CCC;
+		background-color: #fff;
+		background-color: rgba(255,255,255,0.6);
+		border-radius: 8px;
+		position: absolute;
+		left: 55%;
+		top:18%;
+		overflow: hidden;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 1s;
+	}
+	.active .ly-box22{
+		opacity: 0.9;
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1);
+		transition-delay: 5s;
+	}
+	/*小三角*/
+	.ly-triangle22 {
+		width: 0; 
+		height: 0; 
+		border-top: 20px solid transparent; 
+		border-right: 22px solid white; 
+		border-bottom: 20px solid transparent;
+		border-radius: 2px; 
+		margin-left: 24px;
+		position: absolute;
+		right: 45%;
+		top: 25%;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 1s;
+	}
+	.active .ly-triangle22 {
+		opacity: 0.6;
+		margin-left: 2px;
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1);
+		transition-delay: 6s;
+	}
+	
+	/*图片*/
+	.ly-imgbox22{
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		height: 80%;
+		border-radius: 8px;
+		opacity:0;
+		overflow: hidden;
+		transition:all 0.5s;
+	}
+	.active .ly-imgbox22{
+		opacity:1;
+		transition-delay:6s;
+	}
+	.ly-img22{
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+	}
+	
+	/* 盒子 */
+	.ly-box23 {
+		width: 60%;
+		height: 0;
+		border: 2px #CCC;
+		background-color: #fff;
+		background-color: rgba(255,255,255,0.6);
+		border-radius: 8px;
+		position: absolute;
+		left: 23%;
+		bottom: 4%;
+		overflow: hidden;
+		opacity: 0.9;
+		transition: all 10s;
+	}
+	.active .ly-box23{
+		height: 45%;
+		transition-delay: 8s;
+	}
+	/*小三角*/
+	.ly-triangle23 {
+		width: 0; 
+		height: 0; 
+		border-top: 20px solid transparent; 
+		border-right: 22px solid white; 
+		border-bottom: 20px solid transparent;
+		border-radius: 2px; 
+		margin-left: 24px;
+		position: absolute;
+		right: 77%;
+		top: 66%;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 1s;
+	}
+	.active .ly-triangle23 {
+		opacity: 0.6;
+		margin-left: 2px;
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1);
+		transition-delay: 12s;
+	}
+	/*图片*/
+	.ly-imgbox23{
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		height: 80%;
+		border-radius: 8px;
+		opacity:0;
+		overflow: hidden;
+		transition:all 0.5s;
+	}
+	.active .ly-imgbox23{
+		opacity:1;
+		transition-delay:12s;
+	}
+	.ly-img23{
+		position: absolute;
+		width: 100%;
+		height: 80%;
+		bottom: 0;
+	}
+
+	.ly-box23 p, .ly-box21 p, .ly-box22 p {
+		font-size: 2.5vw !important;
+	}
+}
+
+	@media screen and (max-aspect-ratio: 3/4) {
+	/* 盒子 */
+	.ly-box31 {
+		width: 65%;
+		height: 60%;
+		border: 2px #CCC;
+		background-color: #fff;
+		background-color: rgba(255,255,255,0.6);
+		border-radius: 8px;
+		position: absolute;
+		left: 23%;
+		top:5%;
+		overflow: hidden;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 1s;
+	}
+	.active .ly-box31{
+		opacity: 0.9;
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1);
+		transition-delay: 2.5s;
+	}
+	/* 盒子 */
+	.ly-box32 {
+		width: 50%;
+		height: 30%;
+		border: 2px #CCC;
+		background-color: #fff;
+		background-color: rgba(255,255,255,0.6);
+		border-radius: 8px;
+		position: absolute;
+		left: 23%;
+		top: 67%;
+		overflow: hidden;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 1s;
+	}
+	.active .ly-box32{
+		opacity: 0.9;
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1);
+		transition-delay: 5s;
+	}
+	
+	/*小三角*/
+	.ly-triangle31 {
+		width: 0; 
+		height: 0; 
+		border-top: 20px solid transparent; 
+		border-right: 22px solid white; 
+		border-bottom: 20px solid transparent;
+		border-radius: 2px; 
+		margin-left: 24px;
+		position: absolute;
+		right: 77%;
+		top: 14%;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 0.5s;
+	}
+	.active .ly-triangle31 {
+		opacity: 0.6;
+		margin-left: 2px;
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1);
+		transition-delay: 3.5s;
+	}
+	/*小三角*/
+	.ly-triangle32 {
+		width: 0; 
+		height: 0; 
+		border-top: 20px solid transparent; 
+		border-right: 22px solid white; 
+		border-bottom: 20px solid transparent;
+		border-radius: 2px; 
+		margin-left: 24px;
+		position: absolute;
+		right: 77%;
+		top: 73%;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 1s;
+	}
+	.active .ly-triangle32 {
+		opacity: 0.6;
+		margin-left: 2px;
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1);
+		transition-delay: 6s;
+	}
+
+	.ly-box31 p, .ly-box32 p {
+		font-size: 2.5vw !important;
+	}
+}
+	
+	@media screen and (max-aspect-ratio: 3/4) {
+	.ly-box51 {
+		width: 65%;
+		height: 0;
+		border: 2px #CCC;
+		background-color: #fff;
+		background-color: rgba(255,255,255,0.6);
+		border-radius: 8px;
+		position: absolute;
+		left: 23%;
+		bottom:6%;
+		overflow: hidden;
+		opacity: 0.9;
+		transition: all 10s;
+	}
+	.active .ly-box51{
+		height: 40%;
+		transition-delay: 8s;
+	}
+	
+	.ly-box52 {
+		width: 30%;
+		height: 40%;
+		border: 2px #CCC;
+		background-color: #fff;
+		background-color: rgba(255,255,255,0.6);
+		border-radius: 8px;
+		position: absolute;
+		left: 23%;
+		top:10%;
+		overflow: hidden;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 1s;
+	}
+	.active .ly-box52{
+		opacity: 0.9;
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1);
+		transition-delay: 2.5s;
+	}
+	.ly-box51 p, .ly-box52 p {
+		font-size: 2.5vw !important;
+	}
+}
+.ly-txt51 {
+	text-indent:2em;
+	font-family: Microsoft YaHei;
+	font-size: 14px;
+	font-color: #000;
+	position: absolute;
+	width:80%;
+	top:9%;
+	margin-left:5%;
+	opacity: 0;
+	transition: all 0.5s;
+	width:88%;
+	overflow:hidden;
+}
+
+.active .ly-txt51 {
+	opacity:1;
+	transition-delay: 7.0s;
+}
+
+
+/**                             第六部分                          **/
+@media screen and (max-aspect-ratio: 3/4) {
+	.ly-imgbox61{
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		height: 41%;
+		border-radius: 8px;
+		opacity:0;
+		overflow: hidden;
+		transition:all 0.5s;
+	}
+	.active .ly-imgbox61{
+		opacity:1;
+		transition-delay:12s;
+	}
+	.ly-img61{
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+		/*margin-bottom:-250px;*/
+	}
+}
+
+	@media screen and (max-aspect-ratio: 3/4) {
+	.ly-box71 {
+		width: 35%;
+		height: 40%;
+		border: 2px #CCC;
+		background-color: #fff;
+		background-color: rgba(255,255,255,0.6);
+		border-radius: 8px;
+		position: absolute;
+		left: 55%;
+		top: 5%;
+		overflow: hidden;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 1s;
+	}
+	.active .ly-box71{
+		opacity: 0.9;
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1);
+		transition-delay: 5s;
+	}
+	.ly-box72 {
+		width: 35%;
+		height: 40%;
+		border: 2px #CCC;
+		background-color: #fff;
+		background-color: rgba(255,255,255,0.6);
+		border-radius: 8px;
+		position: absolute;
+		left: 23%;
+		bottom:6.5%;
+		overflow: hidden;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 1s;
+	}
+	.active .ly-box72{
+		opacity: 0.9;
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1);
+		transition-delay: 8s;
+	}
+	
+	.ly-box73 {
+		width: 30%;
+		height: 40%;
+		border: 2px #CCC;
+		background-color: #fff;
+		background-color: rgba(255,255,255,0.6);
+		border-radius: 8px;
+		position: absolute;
+		left: 61%;
+		bottom:6.5%;
+		overflow: hidden;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 1s;
+	}
+	.active .ly-box73{
+		opacity: 0.9;
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1);
+		transition-delay: 11s;
+	}
+	
+	.ly-triangle71 {
+		width: 0; 
+		height: 0; 
+		border-top: 20px solid transparent; 
+		border-right: 22px solid white; 
+		border-bottom: 20px solid transparent;
+		border-radius: 2px; 
+		margin-left: 24px;
+		position: absolute;
+		right: 77%;
+		top: 60%;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 1s;
+	}
+	.active .ly-triangle71 {
+		opacity: 0.6;
+		margin-left: 2px;
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1);
+		transition-delay: 8.5s;
+	}
+	
+	.ly-triangle72 {
+		width: 0;
+		height: 0; 
+		border-top: 20px solid transparent; 
+		border-right: 22px solid white; 
+		border-bottom: 20px solid transparent;
+		border-radius: 2px; 
+		margin-left: 24px;
+		position: absolute;
+		right: 39%;
+		top: 60%;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 1s;
+	}
+	.active .ly-triangle72 {
+		opacity: 0.6;
+		margin-left: 2px;
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1);
+		transition-delay: 12s;
+	}
+	.xx71 {
+		height:40%;
+		top:5%;
+	}
+	.xx72 {
+		top:20%;
+	}
+
+	.ly-box71 p, .ly-box72 p, .ly-box73 p {
+		font-size: 2.5vw !important;
+	}
+}
+
+	@media screen and (max-aspect-ratio: 3/4) {
+	.ly-box81 {
+		width: 65%;
+		height: 60%;
+		border: 2px #CCC;
+		background-color: #fff;
+		background-color: rgba(255,255,255,0.6);
+		border-radius: 8px;
+		position: absolute;
+		left: 23%;
+		top: 5%;
+		overflow: hidden;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 1s;
+	}
+	.active .ly-box81{
+		opacity: 0.9;
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1);
+		transition-delay: 2.5s;
+	}
+	.ly-box82 {
+		width: 65%;
+		height: 25%;
+		border: 2px #CCC;
+		background-color: #fff;
+		background-color: rgba(255,255,255,0.6);
+		border-radius: 8px;
+		position: absolute;
+		left: 23%;
+		top:70%;
+		overflow: hidden;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 1s;
+	}
+	.active .ly-box82{
+		opacity: 0.9;
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1);
+		transition-delay: 5s;
+	}
+	/*小三角*/
+	.ly-triangle82 {
+		width: 0; 
+		height: 0; 
+		border-top: 20px solid transparent; 
+		border-right: 22px solid white; 
+		border-bottom: 20px solid transparent;
+		border-radius: 2px; 
+		margin-left: 24px;
+		position: absolute;
+		right: 77%;
+		top: 75%;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 1s;
+	}
+	.active .ly-triangle82 {
+		opacity: 0.6;
+		margin-left: 2px;
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1);
+		transition-delay: 6s;
+	}
+
+	.ly-box81 p, .ly-box82 p {
+		font-size: 2.5vw !important;
+	}
+}
+	
+	@media screen and (max-aspect-ratio: 3/4) {
+	.ly-box91 {
+		width: 30%;
+		height: 40%;
+		border: 2px #CCC;
+		background-color: #fff;
+		background-color: rgba(255,255,255,0.6);
+		border-radius: 8px;
+		position: absolute;
+		left: 54.9%;
+		top: 10%;
+		overflow: hidden;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 1s;
+	}
+	.ly-box92 {
+		width: 30%;
+		height: 40%;
+		border: 2px #CCC;
+		background-color: #fff;
+		background-color: rgba(255,255,255,0.6);
+		border-radius: 8px;
+		position: absolute;
+		left: 23%;
+		bottom: 10%;
+		overflow: hidden;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 1s;
+	}
+	.ly-box93 {
+		width: 30%;
+		height: 40%;
+		border: 2px #CCC;
+		background-color: #fff;
+		background-color: rgba(255,255,255,0.6);
+		border-radius: 8px;
+		position: absolute;
+		left: 56%;
+		bottom: 5%;
+		overflow: hidden;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 1s;
+	}
+	.active .ly-box91{
+		opacity: 0.9;
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1);
+		transition-delay: 5s;
+	}
+	.xx91 {
+		height: 40%;
+		top: 5%;
+	}
+	.xx92 {
+		top:22%;
+	}
+	
+	.active .ly-box92{
+		opacity: 0.9;
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1);
+		transition-delay: 8s;
+	}
+	.active .ly-box93{
+		opacity: 0.9;
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1);
+		transition-delay: 11s;
+	}
+	
+	.ly-triangle91 {
+		width: 0; 
+		height: 0; 
+		border-top: 20px solid transparent; 
+		border-right: 22px solid white; 
+		border-bottom: 20px solid transparent;
+		border-radius: 2px; 
+		margin-left: 24px;
+		position: absolute;
+		right: 76.9%;
+		top: 60%;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 1s;
+	}
+	.ly-triangle92 {
+		width: 0; 
+		height: 0; 
+		border-top: 20px solid transparent; 
+		border-right: 22px solid white; 
+		border-bottom: 20px solid transparent;
+		border-radius: 2px; 
+		margin-left: 24px;
+		position: absolute;
+		right: 44%;
+		top: 65%;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 1s;
+	}
+	.active .ly-triangle91 {
+		opacity: 0.6;
+		margin-left: 2px;
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1);
+		transition-delay: 8.5s;
+	}
+	.active .ly-triangle92 {
+		opacity: 0.6;
+		margin-left: 2px;
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1);
+		transition-delay: 12s;
+	}
+
+	.ly-box91 p, .ly-box92 p, .ly-box93 p {
+		font-size: 2.5vw !important;
 	}
 }
